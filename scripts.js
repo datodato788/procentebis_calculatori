@@ -32,7 +32,11 @@ function calc1() {
   const num1Value = Number(num1.value);
   const numm1Value = Number(numm1.value);
 
-  calced1.innerHTML = (num1Value * numm1Value) / 100;
+  const result1 = (num1Value * numm1Value) / 100;
+
+  calced1.value = result1;
+
+  calced1.classList.add("cc");
 }
 ///////////////////////////////////////////////////////
 function calc2() {
@@ -43,8 +47,11 @@ function calc2() {
   const num2Value = Number(num2.value);
   const numm2Value = Number(numm2.value);
 
-  calced2.innerHTML = ((numm2Value / num2Value) * 100) + "%"
+  const result2 = (numm2Value / num2Value) * 100 + "%";
+  calced2.value = result2;
+  calced2.classList.add("cc");
 }
+
 ///////////////////////////////////////////////////////
 function calc3() {
   const num3 = document.getElementById("num3");
@@ -54,7 +61,9 @@ function calc3() {
   const num3Value = Number(num3.value);
   const numm3Value = Number(numm3.value);
 
-  calced3.innerHTML = (((numm3Value - num3Value) / num3Value) * 100)+ "%"
+  const result3 = ((numm3Value - num3Value) / num3Value) * 100 + "%";
+  calced3.value = result3;
+  calced3.classList.add("cc");
 }
 ///////////////////////////////////////////////////////
 function calc4() {
@@ -65,5 +74,8 @@ function calc4() {
   const num4Value = Number(num4.value);
   const numm4Value = Number(numm4.value);
 
-  calced4.innerHTML = (numm4Value / num4Value) * 100;
+  const result4 = (numm4Value / num4Value) * 100;
+
+  calced4.value = result4;
+  calced4.classList.add("cc");
 }
