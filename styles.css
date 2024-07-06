@@ -169,3 +169,38 @@ button {
   border: 1px solid rgb(255, 0, 0);
   background-color: rgb(255, 208, 0);
 }
+
+@media screen and (max-width: 300px) {
+  #calced1 {
+    background-color: rgb(237, 255, 133);
+    height: 25px;
+    border-radius: 10px;
+    margin: 0px 0px 0px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 90px;
+  }
+  #calced2 {
+    background-color: rgb(237, 255, 133);
+    height: 25px;
+    border-radius: 10px;
+    margin: 0px 0px 0px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 90px;
+  }
+  #calced3 {
+    background-color: rgb(237, 255, 133);
+    height: 25px;
+    border-radius: 10px;
+    margin: 0px 0px 0px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 90px;
+  }
+  #calced4 {
+    background-color: rgb(237, 255, 133);
+    height: 25px;
+    border-radius: 10px;
+    margin: 0px 0px 0px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 90px;
+  }
+}
