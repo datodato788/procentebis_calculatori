@@ -1,17 +1,171 @@
+input[type="numres"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+} /* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+/* //////////////////////////////////////////////////// */
 * {
   padding: 0;
   margin: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-size: 1rem; */
 }
 body {
   text-align: center;
   display: flex;
   justify-content: center;
-  background-color: blanchedalmond;
+  background-color: rgb(253, 152, 0);
 }
 .mainDiv {
-  background-color: rgb(141, 196, 228);
-  height: 800px;
-  width: 700px;
-  padding: 20px;
+  background-color: rgb(253, 152, 0);
+  /* height: 800px; */
+  width: 70vw;
+  padding: 60px 0px 0px 0px;
+}
+.prC1 {
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  font-size: 1.4rem;
+  border: 2px solid rgb(255, 254, 252);
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+.prC2 {
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  font-size: 1.4rem;
+  border: 2px solid rgb(253, 152, 0);
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+.prC3 {
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  font-size: 1.4rem;
+  border: 2px solid rgb(253, 152, 0);
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+.prC4 {
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  font-size: 1.4rem;
+  border: 2px solid rgb(253, 152, 0);
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+button {
+  border: 2px solid rgb(255, 0, 0);
+  height: 50px;
+  width: 100px;
+  background-color: rgb(217, 255, 0);
+  border-radius: 6px;
+}
+
+#num1 {
+  background-color: rgb(243, 243, 181);
+  border: 1px solid rgb(20, 20, 19);
+  border-radius: 4px;
+  height: 40px;
+  overflow: hidden;
+}
+#numm1 {
+  background-color: rgb(243, 243, 181);
+  border: 1px solid rgb(20, 20, 19);
+  border-radius: 4px;
+  height: 40px;
+}
+#num2 {
+  background-color: rgb(243, 243, 181);
+  border: 1px solid rgb(20, 20, 19);
+  border-radius: 4px;
+  height: 40px;
+}
+#numm2 {
+  background-color: rgb(243, 243, 181);
+  border: 1px solid rgb(20, 20, 19);
+  border-radius: 4px;
+  height: 40px;
+}
+
+#num3 {
+  background-color: rgb(243, 243, 181);
+  border: 1px solid rgb(20, 20, 19);
+  border-radius: 4px;
+  height: 40px;
+}
+#numm3 {
+  background-color: rgb(243, 243, 181);
+  border: 1px solid rgb(20, 20, 19);
+  border-radius: 4px;
+  height: 40px;
+}
+
+#num4 {
+  background-color: rgb(243, 243, 181);
+  border: 1px solid rgb(20, 20, 19);
+  border-radius: 4px;
+  height: 40px;
+}
+#numm4 {
+  background-color: rgb(243, 243, 181);
+  border: 1px solid rgb(20, 20, 19);
+  border-radius: 4px;
+  height: 40px;
+}
+#calced1 {
+  background-color: rgb(237, 255, 133);
+  height: 25px;
+  border-radius: 10px;
+  margin: 0px 0px 0px 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+#calced2 {
+  background-color: rgb(237, 255, 133);
+  height: 25px;
+  border-radius: 10px;
+  margin: 0px 0px 0px 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+#calced3 {
+  background-color: rgb(237, 255, 133);
+  height: 25px;
+  border-radius: 10px;
+  margin: 0px 0px 0px 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+#calced4 {
+  background-color: rgb(237, 255, 133);
+  height: 25px;
+  border-radius: 10px;
+  margin: 0px 0px 0px 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.cc {
+  box-shadow: 0px 0px 10px rgb(0, 255, 34);
+  border: 1px solid rgb(255, 0, 0);
+  background-color: rgb(255, 208, 0);
 }
