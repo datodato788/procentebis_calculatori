@@ -43,7 +43,7 @@ function calc2() {
   const num2Value = Number(num2.value);
   const numm2Value = Number(numm2.value);
 
-  calced2.innerHTML = (numm2Value / num2Value) * 100;
+  calced2.innerHTML = ((numm2Value / num2Value) * 100) + "%"
 }
 ///////////////////////////////////////////////////////
 function calc3() {
@@ -54,7 +54,7 @@ function calc3() {
   const num3Value = Number(num3.value);
   const numm3Value = Number(numm3.value);
 
-  calced3.innerHTML = ((num3Value - numm3Value) / numm3Value) * 100;
+  calced3.innerHTML = (((numm3Value - num3Value) / num3Value) * 100)+ "%"
 }
 ///////////////////////////////////////////////////////
 function calc4() {
