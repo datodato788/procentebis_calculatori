@@ -37,6 +37,30 @@ body {
   width: 70vw;
   padding: 60px 0px 0px 0px;
 }
+/* ..................about */
+.about #h21 {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  /* text-shadow: 0px 0px 5px rgb(255, 0, 0); */
+  font-weight: 100;
+}
+.about #h22 {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px rgb(255, 0, 0);
+  font-weight: 100;
+} 
+
+.about h1{
+  color: red;
+  text-shadow: 0px 0px 5px white;
+}
+.about h3{
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+}
+/* ..................about */
+
 .prC1 {
   padding: 30px;
   text-align: center;

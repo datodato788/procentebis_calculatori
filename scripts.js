@@ -49,7 +49,7 @@ function calc2() {
 
   const num2Value = Number(num2.value);
   const numm2Value = Number(numm2.value);
-  if (num2Value == 0 && numm2Value == 0) {
+  if ((num2Value == 0 && numm2Value == 0) || num2Value == 0) {
     calced2.value = "0";
   } else {
     const result2 = (numm2Value / num2Value) * 100 + "%";
@@ -67,7 +67,7 @@ function calc3() {
   const num3Value = Number(num3.value);
   const numm3Value = Number(numm3.value);
 
-  if (num3Value == 0 && numm3Value == 0) {
+  if ((num3Value == 0 && numm3Value == 0) || numm3Value) {
     calced3.value = "0";
   } else {
     const result3 = ((numm3Value - num3Value) / num3Value) * 100 + "%";
@@ -84,7 +84,7 @@ function calc4() {
   const num4Value = Number(num4.value);
   const numm4Value = Number(numm4.value);
 
-  if (num4Value == 0 && numm4Value == 0) {
+  if ((num4Value == 0 && numm4Value == 0) || num4Value == 0) {
     calced4.value = "0";
   } else {
     const result4 = (numm4Value / num4Value) * 100;
@@ -93,3 +93,4 @@ function calc4() {
   }
   calced4.classList.add("cc");
 }
+
