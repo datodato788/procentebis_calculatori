@@ -67,7 +67,7 @@ function calc3() {
   const num3Value = Number(num3.value);
   const numm3Value = Number(numm3.value);
 
-  if ((num3Value == 0 && numm3Value == 0) || numm3Value) {
+  if ((num3Value == 0 && numm3Value == 0) || numm3Value == 0) {
     calced3.value = "0";
   } else {
     const result3 = ((numm3Value - num3Value) / num3Value) * 100 + "%";
