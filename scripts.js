@@ -94,3 +94,4 @@ function calc4() {
   calced4.classList.add("cc");
 }
 
+// dato 
