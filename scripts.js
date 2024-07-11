@@ -34,6 +34,8 @@ function calc1() {
 
   if (num1Value == 0 && numm1Value == 0) {
     calced1.value = "0";
+  } else if (num1Value > 1e280 || numm1Value > 1e280) {
+    calced1.value = "ვერ დამუშავდა !";
   } else {
     const result1 = (num1Value * numm1Value) / 100;
 
@@ -51,6 +53,8 @@ function calc2() {
   const numm2Value = Number(numm2.value);
   if ((num2Value == 0 && numm2Value == 0) || num2Value == 0) {
     calced2.value = "0";
+  } else if (num2Value > 1e280 || numm2Value > 1e280) {
+    calced2.value = "ვერ დამუშავდა !";
   } else {
     const result2 = (numm2Value / num2Value) * 100 + "%";
     calced2.value = result2;
@@ -67,8 +71,10 @@ function calc3() {
   const num3Value = Number(num3.value);
   const numm3Value = Number(numm3.value);
 
-  if ((num3Value == 0 && numm3Value == 0) || numm3Value == 0) {
+  if ((num3Value == 0 && numm3Value == 0) || num3Value == 0) {
     calced3.value = "0";
+  } else if (num3Value > 1e280 || numm3Value > 1e280) {
+    calced3.value = "ვერ დამუშავდა !";
   } else {
     const result3 = ((numm3Value - num3Value) / num3Value) * 100 + "%";
     calced3.value = result3;
@@ -86,6 +92,8 @@ function calc4() {
 
   if ((num4Value == 0 && numm4Value == 0) || num4Value == 0) {
     calced4.value = "0";
+  } else if (num4Value > 1e280 || numm4Value > 1e280) {
+    calced4.value = "ვერ დამუშავდა !";
   } else {
     const result4 = (numm4Value / num4Value) * 100;
 
@@ -94,4 +102,4 @@ function calc4() {
   calced4.classList.add("cc");
 }
 
-// d 
+// d
